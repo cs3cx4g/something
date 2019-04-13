@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 using namespace std;
 class Course{
@@ -100,11 +100,5 @@ int main(){
 	cout<<"----------------------sc2=sc1---------------------"<<endl;
 	sc2.display();
 	cout<<endl;
-	Student *sname=sc2.getStudent();
-	cout<<"------------------sc2.getStudent()----------------"<<endl;
-	for(int i=0;i<sc2.getCurNum();i++)
-		(sname++)->display();
-	cout<<endl;
 	return 0;
 }
-	
