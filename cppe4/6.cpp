@@ -55,6 +55,11 @@ int main()
 	door1.display();
 	--door2;
 	door2.display();
+	Calculator door3;
+	door3=door1+door2;
+	door3.display();
+	door3=door1-door2;
+	door3.display();
 	return 0;
 }
 	
